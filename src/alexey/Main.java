@@ -14,4 +14,4 @@ public class Main {
         System.out.println(ellipse.getSquare());//вывод площади элипса
         System.out.println(ellipse.getPerimeter());//вывод периметра элипса
     }
-}
+}//класс main

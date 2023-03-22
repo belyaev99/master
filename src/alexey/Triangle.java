@@ -2,6 +2,7 @@
  * @author belyaev99
  */
 package alexey;
+//класс triangle наследниу класса figure
 public class Triangle implements Figure {
     private double a = 0;
     private double b = 0;
@@ -11,7 +12,8 @@ public class Triangle implements Figure {
         this.a = a;
         this.b = b;
         this.c = c;
-    }//определенные переменные
+    }//определенные переменные, стороны треугольника
+    //класс triangle наследниу класса figure
 
     @Override
     public double getSquare() {

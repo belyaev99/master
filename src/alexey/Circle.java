@@ -1,4 +1,5 @@
 package alexey;
+//класс circle наслденик класса Figure
 public class Circle implements Figure {
     private double radius = 0;
     public Circle(double radius) {

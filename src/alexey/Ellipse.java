@@ -1,4 +1,5 @@
 package alexey;
+//класс Ellipse наследник класса Figure
 public class Ellipse implements Figure{
     private double a = 0;
     private double b = 0;
@@ -6,7 +7,7 @@ public class Ellipse implements Figure{
     public Ellipse(double a, double b) {
         this.a = a;
         this.b = b;
-    }//определенные переменные
+    }//определенные переменные, полуоси элипса
 
     @Override
     public double getSquare() {
